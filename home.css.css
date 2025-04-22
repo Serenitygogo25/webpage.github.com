@@ -1,0 +1,200 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+
+body{
+   
+    color: rgb(57, 53, 53);
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: rgb(21, 42, 63);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    
+}
+
+.logo{
+    font-size: 15px;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.navbar a {
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 500;   
+    margin-left: 35px;
+    color: rgb(212, 203, 203);
+    transition: .3s;
+    
+}
+.navbar a:hover,
+.navbar a:active{
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    font-weight: 400;
+    border-radius: 5px;
+    height: 20px;
+}
+.HOME{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+
+}
+
+.HOME-content{
+    max-width: 550px;
+}
+
+.HOME-content h1{
+    font-size: 60px;
+    font-weight: 700;
+    font-family: "Carter One", system-ui;
+    line-height: 1.2;
+    color: rgb(2, 2, 55);
+    animation: glow  10s linear infinite;
+}
+.HOME-content h3{
+    font-family: "Calistoga", serif;
+    font-size: 50px;
+    font-weight: 800;
+    color: rgb(34, 68, 103);
+    
+}
+.HOME-content p{
+    font-family: "Carattere", cursive;
+    font-size: 20px;
+    margin: 20px 0 40px;
+}
+
+.HOME-content .btn-box{
+    display: flex;
+    width: 345;
+    height: 50px;
+    
+}
+
+.btn-box a{
+    display: inline-flex;
+    width: 150px;
+    height: 100%;
+    background-color: rgb(21, 42, 63);
+    border-radius: 10px;
+    font-size: 19px;
+    color: rgb(229, 213, 213);
+    text-decoration: none;
+    font-weight: 700px;         
+    letter-spacing: 1px;
+    align-items: center;
+    justify-content: center;
+    text-shadow: black;
+}
+.btn-box a:nth-child(2) {
+    background: transparent;
+    color: rgb(206, 187, 187);
+}
+
+.btn-box a::before
+
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: rgb(112, 216, 182);
+    z-index: -1;
+    transition: .5s;
+}
+
+.btn-box a:hover::before{
+    width: 80%
+}
+
+.image-container {
+    background-image: url(homepageimgbot.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    
+    
+}
+
+.image-container {
+    display: inline-block;
+    border: 10px solid transparent;
+    border-image: linear-gradient(to right,rgb(112, 216, 182), rgb(11, 76, 54)) 1;
+    padding: 100px;
+
+}
+
+
+  footer {
+    background: rgb(21, 42, 63);
+    padding: 2px;
+    font-family: Arial, sans-serif;
+    color: white;
+    font-size: 14;
+    
+  }
+
+  .footer-list {
+    display: grid;
+    grid-template-columns: .5fr 1fr 1fr; 
+    gap: 2px;
+    max-width: 100%
+
+    
+  }
+
+  .footer-list span {
+    padding: 0px 0;
+    margin-left: 50px;
+    text-align: left;
+  }
+
+  .footer-list a{
+    text-decoration: none;
+    color: rgb(211, 204, 204);
+    font-weight: lighter;
+  }
+
+  .footer-list a:hover{
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    text-decoration: solid;
+  }
+  
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+

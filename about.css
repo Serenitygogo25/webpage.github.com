@@ -1,0 +1,230 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+
+    
+}
+
+body{
+   
+    color: rgb(57, 53, 53);
+    
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: rgb(21, 42, 63);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    
+}
+
+.logo{
+    font-size: 15px;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.navbar a {
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 500;   
+    margin-left: 35px;
+    color: rgb(212, 203, 203);
+    transition: .3s;
+    
+}
+.navbar a:hover,
+.navbar a:active{
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    font-weight: 400;
+}
+
+.gallery-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px 10%; 
+    flex-wrap: wrap; 
+}
+
+.gallery img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease;
+    padding: 5px;
+    border-color: rgb(22, 22, 22);
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+    background-color: rgb(14, 235, 220);
+}
+
+.gallery-title {
+    margin-left: 10%;
+    margin-top: 5px;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: "Carter One", system-ui;
+    line-height: 1.2;
+    color: rgb(5, 5, 5);
+    animation: glow  10s linear infinite;
+    text-shadow: 4px 4px 4px rgb(54, 52, 52);
+
+}
+
+.about-section{
+        font-size: 30px;
+        text-align: center;
+        background-color: beige;
+        
+}
+
+.about-section p{
+    text-align: center;
+    font-size: 25px;
+    margin-left: 120px;
+    margin-right: 120px;
+    font-family:"Carattere", cursive;
+    color: black;
+    text-shadow: rgb(195, 189, 189);
+}
+
+.about-section h1{
+    font-family: "Carter One", system-ui;
+    color: rgb(227, 151, 59);
+   
+}
+
+.social-media-section {
+    width: 100%;
+    padding: 40px 20px;
+    background-color: beige;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: x-large;
+
+  }
+  
+
+  
+  .social-media-section h1{
+    text-align: center;
+    font-size: 40px;
+    color: rgb(227, 151, 59);
+    font-family: "Carter One", system-ui;
+  }
+  .social-media-section button{
+    background-color: transparent;
+    border: white;
+    font-size: x-large;
+    text-transform: capitalize;
+    font-family:"Carattere", cursive;
+  }
+
+  .social-media-section button:hover{
+    color: rgb(14, 235, 220);
+  }
+
+  .LOCATION{
+    background-color:  beige;
+
+  }
+  .LOCATION h1{
+    text-align: center;
+    font-size: 40px;
+    color: rgb(227, 151, 59);
+    font-family: "Carter One", system-ui;
+  }
+
+  .LOCATION h2{
+    text-align: center;
+    font-family:"Carattere", cursive;
+    color: black;
+    font-weight: 700;
+
+  }
+
+.LOCATION iframe{
+    width: 100%;
+    height: 400px;
+    
+}
+
+.social-media-section a{
+    color:black;
+    text-decoration:none;
+}
+.social-media-section a:hover{
+    background: linear-gradient(to right, #4facfe, #00f2fe,rgb(53, 225, 174),rgb(102, 102, 189));
+    font-weight: 700;
+    z-index: 0;
+
+}
+
+footer {
+  background: rgb(21, 42, 63);
+  padding: 2px;
+  font-family: Arial, sans-serif;
+  color: white;
+  font-size: 14;
+  
+}
+
+.footer-list {
+  display: grid;
+  grid-template-columns: .5fr 1fr 1fr; 
+  gap: 2px;
+  max-width: 100%
+
+  
+}
+
+.footer-list span {
+  padding: 0px 0;
+  margin-left: 50px;
+  text-align: left;
+}
+
+.footer-list a{
+  text-decoration: none;
+  color: rgb(211, 204, 204);
+  font-weight: lighter;
+}
+
+.footer-list a:hover{
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  text-decoration: solid;
+}
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
